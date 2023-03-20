@@ -38,8 +38,8 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation "junit:junit:$rootProject.ext.jUnitVersion"
-    implementation "io.reactivex:rxandroid:$rootProject.ext.rxJavaAndroidVersion"
-    implementation "io.reactivex:rxjava:$rootProject.ext.rxJavaVersion"
-    implementation project(':android-networking')
+    api "io.reactivex:rxandroid:$rootProject.ext.rxJavaAndroidVersion"
+    api "io.reactivex:rxjava:$rootProject.ext.rxJavaVersion"
+    api project(':android-networking')
 }
 //apply from: 'rx-upload.gradle'

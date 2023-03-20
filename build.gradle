@@ -46,7 +46,7 @@ ext {
     // App tools version
     compileSdkVersion = 31
     minSdkVersion = 21
-    targetSdkVersion = 31
+    targetSdkVersion = 28
     buildToolsVersion = "30.0.2"
 
     // App dependencies versions

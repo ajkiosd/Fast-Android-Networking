@@ -41,8 +41,8 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation "junit:junit:$rootProject.ext.jUnitVersion"
     androidTestImplementation "com.squareup.okhttp3:mockwebserver:$rootProject.ext.mockWebServerVersion"
-    implementation "io.reactivex.rxjava2:rxandroid:$rootProject.ext.rxJava2AndroidVersion"
-    implementation "io.reactivex.rxjava2:rxjava:$rootProject.ext.rxJava2Version"
-    implementation project(':android-networking')
+    api "io.reactivex.rxjava2:rxandroid:$rootProject.ext.rxJava2AndroidVersion"
+    api "io.reactivex.rxjava2:rxjava:$rootProject.ext.rxJava2Version"
+    api project(':android-networking')
 }
 //apply from: 'rx2-upload.gradle'

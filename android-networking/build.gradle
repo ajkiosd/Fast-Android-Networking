@@ -43,8 +43,8 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation "junit:junit:$rootProject.ext.jUnitVersion"
     androidTestImplementation "com.squareup.okhttp3:mockwebserver:$rootProject.ext.mockWebServerVersion"
-    implementation "com.squareup.okhttp3:okhttp:$rootProject.ext.okHttp3Version"
-    implementation "com.google.code.gson:gson:$rootProject.ext.gsonVersion"
+    api "com.squareup.okhttp3:okhttp:$rootProject.ext.okHttp3Version"
+    api "com.google.code.gson:gson:$rootProject.ext.gsonVersion"
     implementation 'androidx.appcompat:appcompat:1.0.0'
 }
 //apply from: 'upload.gradle'

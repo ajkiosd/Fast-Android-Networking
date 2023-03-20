@@ -60,4 +60,5 @@ ext {
     jUnitVersion = "4.12"
     mockWebServerVersion = "3.10.0"
     supportAppCompatVersion = "27.1.1"
+    appcompatVersion = '1.2.0'
 }
